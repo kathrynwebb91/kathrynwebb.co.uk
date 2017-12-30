@@ -1,0 +1,23 @@
+{
+  "name": "kathryn-webb-website",
+  "version": "0.0.0",
+  "description": "My Personal Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathrynwebb91/kathrynwebb91.github.io.git"
+  },
+  "keywords": [
+    "kathryn",
+    "webb"
+  ],
+  "author": "Kathryn Webb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathrynwebb91/kathrynwebb91.github.io/issues"
+  },
+  "homepage": "https://github.com/kathrynwebb91/kathrynwebb91.github.io#readme"
+}
