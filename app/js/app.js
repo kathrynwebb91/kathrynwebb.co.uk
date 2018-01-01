@@ -2,11 +2,12 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Menu from './components/Global/Menu.jsx'
+
+import Home from './components/Pages/Home.jsx'
 
 import '../scss/base.scss'
 
 ReactDOM.render(
-  <Menu />,
+  <Home />,
   document.getElementById('app')
 );

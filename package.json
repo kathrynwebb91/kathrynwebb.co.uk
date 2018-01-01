@@ -39,8 +39,10 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
+    "normalize.scss": "^0.1.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-svg": "^2.2.6"
   },
   "scripts": {
     "dev": "webpack-dev-server --hot --inline --history-api-fallback",

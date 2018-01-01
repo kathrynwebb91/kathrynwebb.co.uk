@@ -1,4 +1,12 @@
+@import 'normalize.scss';
 @import 'colors.scss';
+@import 'vars.scss';
+
+html, body, #app, .page {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
 
 body {
   background: $bg-color;
@@ -8,3 +16,81 @@ body {
     margin: 0;
     padding: 30px;
 }
+
+#app {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// PAGES //
+
+.Home {
+  width: auto;
+  height: 140px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: height 1s;
+  transition-delay: 3s;
+
+  .NameLogo {
+    margin-bottom: 20px;
+  }
+
+  .ContactBar {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - #{$icon-size} - (#{$icon-spacing}/2));
+  
+    .ContactIcon {
+      margin: 0 $icon-spacing/2;
+    }
+  
+    .ContactIcon:first-child {
+      margin-right: $icon-spacing/2;
+    }
+  
+    .ContactIcon:last-child {
+      margin-left: $icon-spacing/2;
+    }
+  
+  }
+
+}
+
+.ContactBar {
+
+  .ContactIcon {
+    margin: 0 $icon-spacing;
+    display: inline-block;
+  }
+
+  .ContactIcon:first-child{
+    margin: 0;
+    margin-right: $icon-spacing;
+  }
+
+  .ContactIcon:last-child{
+    margin: 0;
+    margin-left: $icon-spacing;
+  }
+
+}
+
+//@media only screen and (min-width: 68.5em){
+  .ContactIcon img, .ContactIcon svg {
+    height: $icon-size;
+    width: $icon-size;
+}
+//}
+
+
+.ContactIcon svg path{
+  fill: $icon-color
+}
+
+
+
