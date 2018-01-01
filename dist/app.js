@@ -954,11 +954,11 @@ var _Menu2 = _interopRequireDefault(_Menu);
 
 __webpack_require__(28);
 
+__webpack_require__(29);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// console.log('hello world');
-
-_reactDom2.default.render(_react2.default.createElement(_Menu2.default, null), document.getElementById('app'));
+_reactDom2.default.render(_react2.default.createElement(_Menu2.default, null), document.getElementById('app')); // console.log('hello world');
 
 /***/ }),
 /* 15 */
@@ -18322,6 +18322,12 @@ exports.default = Menu;
 
 /***/ }),
 /* 28 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 29 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
