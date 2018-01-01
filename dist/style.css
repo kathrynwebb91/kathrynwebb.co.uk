@@ -356,14 +356,62 @@ td,
 th {
   padding: 0; }
 
+html, body, #app, .page {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
+
 body {
-  background: #00aeff;
+  background: white;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
-  color: white;
+  color: #66ccff;
   margin: 0;
   padding: 30px; }
 
-.sociallink img, .sociallink svg {
+#app {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.Home {
+  width: auto;
+  height: 140px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: height 1s;
+  transition-delay: 3s; }
+  .Home .NameLogo {
+    margin-bottom: 20px; }
+  .Home .ContactBar {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 2.75em - (5px/2)); }
+    .Home .ContactBar .ContactIcon {
+      margin: 0 2.5px; }
+    .Home .ContactBar .ContactIcon:first-child {
+      margin-right: 2.5px; }
+    .Home .ContactBar .ContactIcon:last-child {
+      margin-left: 2.5px; }
+
+.ContactBar .ContactIcon {
+  margin: 0 5px;
+  display: inline-block; }
+
+.ContactBar .ContactIcon:first-child {
+  margin: 0;
+  margin-right: 5px; }
+
+.ContactBar .ContactIcon:last-child {
+  margin: 0;
+  margin-left: 5px; }
+
+.ContactIcon img, .ContactIcon svg {
   height: 2.75em;
   width: 2.75em; }
+
+.ContactIcon svg path {
+  fill: #66ccff; }
